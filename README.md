@@ -9,9 +9,9 @@ Formålet med dette repository er; dokumentation af vores child-theme
 **Indhold:**
 educationpack-tamhunden-child
 * scripts (mappe)
--  custom.js
+    -  custom.js
 * Rod
-- custom.css
-- style.css
-- footer.php
-- screenshot.png
+    - custom.css
+    - style.css
+    - footer.php
+    - screenshot.png
