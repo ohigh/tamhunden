@@ -25,7 +25,7 @@
 #new-post > fieldset > div > fieldset > p:nth-child(4), .bbp-forum-freshness, .bbp-pagination .bbp-pagination-count, img.avatar, .bbp-breadcrumb-home, span.bbp-breadcrumb-sep:nth-child(2)  {
 	display: none;
 }
-div.bbp-template-notice {
+div.bbp-template-notice, .form-allowed-tags, div.bbp-template-notice.info  {
 	display: none!important;/* !important er brugt da temaet benytter inline CSS */
 }
 #new-post > fieldset, #bbp_topic_content {
@@ -80,9 +80,6 @@ div.bbp-template-notice.info {
 }
 li.bbp-topic-freshness {
     float: right;
-}
-div.bbp-template-notice.info {
-	display: none;
 }
 #bbp_topic_tags {
 	border: #808372 1px solid !important;/* !important er brugt da temaet benytter inline CSS */

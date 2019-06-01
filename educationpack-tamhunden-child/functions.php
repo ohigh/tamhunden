@@ -18,9 +18,7 @@ function custom_enqueue_styles(){
 add_action( 'wp_enqueue_scripts', 'custom_enqueue_styles', 100);
 // Tilføj custom JS 
 function custom_enqueue_scripts(){
-	//wp_register_script( 'my-custom-js', get_stylesheet_directory_uri() . '/scripts/custom-script.js');
 	wp_register_script( 'my-quizz-js', get_stylesheet_directory_uri() . '/scripts/quizz-script.js');
-	//wp_enqueue_script( 'my-custom-js' );
 	wp_enqueue_script( 'my-quizz-js' );
 }
 add_action( 'wp_enqueue_scripts', 'custom_enqueue_scripts');
