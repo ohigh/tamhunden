@@ -16,3 +16,13 @@ Formålet med dette repository er; dokumentation af vores child-theme
         - footer.php
         - functions.php
         - screenshot.png
+* Filer de er ændret i plug-in
+    - index.php (H1 Overskrift sat ind i øvelse-søgeresultat)
+* Sprogfiler tilføjet til plug-in
+    - da_DK.mo
+    - da_DK.po
+    - nd-learning-da_DK.mo
+    - nd-learning-da_DK.po
+    - nd-shortcodes-da_DK.mo
+    - nd-shortcodes-da_DK.po
+
