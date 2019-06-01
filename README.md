@@ -7,11 +7,11 @@ Tamhunden er lavet som et semester eksamensprojekt på Multimediadesigner uddann
 Formålet med dette repository er; dokumentation af vores child-theme
 
 **Indhold:**
-educationpack-tamhunden-child
-* scripts (mappe)
-    -  custom.js
-* Rod
+ * educationpack-tamhunden-child
+    * scripts (mappe)
+        -  custom.js
     - custom.css
     - style.css
     - footer.php
+    - functions.php
     - screenshot.png
