@@ -1,0 +1,95 @@
+/*
+Theme Name: EducationPack TAMHUNDEN Child
+Theme URI: http://www.nicdarkthemes.com
+Template: educationpack
+Author: UDTRYK
+Author URI: https://hjemmeside-designer.dk
+Description: ChildTheme by UDTRYK
+Tags: one-column,two-columns,right-sidebar,custom-header,custom-menu,editor-style,featured-images,microformats,post-formats,rtl-language-support,sticky-post,translation-ready,accessibility-ready
+Version: 1.1
+Updated: 2019-05-15 19:07:37
+
+*/
+/* Overordenet style ændringer */
+h2 {
+    line-height: 45px;
+}
+h3 {
+    line-height: 30px;
+}
+h4 {
+    line-height: 25px;
+}
+h5 {
+    line-height: 25px;
+}
+
+/* Styling på forsiden */
+div.nd_options_section.frontpage_service p {
+	color: #fff !important;/* !important er brugt da temaet benytter inline CSS */
+	font-size: 20px;
+	font-weight: 600;
+}
+/* Fjerner uønskede elementer i øvelser-singlePost div.nd_learning_masonry_item,*/
+div#nd_learning_single_course_page_related_courses.nd_learning_section.nd_learning_border_top_1_solid_grey div.nd_learning_container.nd_learning_clearfix div.nd_learning_section.nd_learning_masonry_content div.nd_learning_width_33_percentage.nd_learning_float_left.nd_learning_padding_15.nd_learning_box_sizing_border_box.nd_learning_masonry_item.nd_learning_width_100_percentage_responsive div.nd_learning_section div.nd_learning_section.nd_learning_border_1_solid_grey div.nd_learning_section.nd_learning_position_relative div.nd_learning_bg_greydark_alpha_gradient_2.nd_learning_position_absolute.nd_learning_left_0.nd_learning_height_100_percentage.nd_learning_width_100_percentage.nd_learning_padding_20.nd_learning_box_sizing_border_box div.nd_learning_position_absolute.nd_learning_bottom_20,
+div#nd_learning_single_course_page_related_courses.nd_learning_section.nd_learning_border_top_1_solid_grey div.nd_learning_container.nd_learning_clearfix div.nd_learning_section.nd_learning_masonry_content div.nd_learning_width_33_percentage.nd_learning_float_left.nd_learning_padding_15.nd_learning_box_sizing_border_box.nd_learning_masonry_item.nd_learning_width_100_percentage_responsive div.nd_learning_section div.nd_learning_section.nd_learning_border_1_solid_grey div.nd_learning_section.nd_learning_padding_20.nd_learning_box_sizing_border_box.nd_learning_bg_grey.nd_learning_border_top_1_solid_grey,
+.nd_learning_single_course_header_img_date_duration{ display: none; }
+.nd_learning_tabs ul li a[href="#nd_learning_single_course_reviews"], .nd_learning_tabs ul li a[href="#nd_learning_single_course_attendees"], .nd_learning_tabs ul li a[href="#nd_learning_single_course_teachers"],  .nd_learning_tabs ul li a[href="#nd_learning_single_course_reviews"]{ display: none; }
+#nd_learning_single_course_table_info_max_availability{ display: none; }
+#nd_learning_single_course_table_info_price{ display: none; }
+#nd_learning_single_course_all_book_buttons{ display: none; }
+#nd_learning_single_course_header_img_date_duration{ display: none; }
+#nd_learning_single_course_header_img_price { display: none; }
+/* Øvrig styling af øvelser */
+.nd_learning_border_bottom_1_solid_grey > h3:nth-child(1) > strong:nth-child(1) {
+	color: #DED7D1 !important;/* !important er brugt da temaet benytter inline CSS */
+}
+strong.nd_learning_color_white_important  {
+	color: #fff !important;/* !important er brugt da temaet benytter inline CSS */
+	text-shadow: 2px 2px 4px #7f8372;
+}
+.nd_learning_bg_grey {
+    background-color: #4b3829;
+}
+a.nd_learning_display_inline_block.nd_learning_color_white_important.nd_options_first_font.nd_learning_padding_8.nd_learning_border_radius_3.nd_learning_font_size_13 {
+	background-color: #7f8372 !important;/* !important er brugt da temaet benytter inline CSS */
+}
+#nd_learning_single_course_page_img_gradient, div#post-26.post-26.page.type-page.status-publish.hentry div.vc_row.wpb_row.vc_row-fluid div.wpb_animate_when_almost_visible.wpb_bounceInUp.bounceInUp.wpb_column.vc_column_container.vc_col-sm-12.wpb_start_animation.animated div.vc_column-inner div.wpb_wrapper div.nd_learning_section.nd_learning_masonry_content div.nd_learning_width_25_percentage.nd_learning_float_left.nd_learning_padding_15.nd_learning_box_sizing_border_box.nd_learning_masonry_item.nd_learning_width_100_percentage_responsive div.nd_learning_section div.nd_learning_section div.nd_learning_section.nd_learning_padding_20.nd_learning_box_sizing_border_box a.nd_learning_display_inline_block.nd_learning_color_white_important.nd_options_first_font.nd_learning_padding_8.nd_learning_border_radius_3.nd_learning_font_size_13 {
+    display: none;
+}
+.nd_learning_bg_greydark_alpha_gradient_2 {
+	background: none;
+}
+a.nd_options_color_white.nd_options_first_font.nd_learning_border_radius_4.nd_learning_padding_10_20.nd_learning_line_height_16.nd_learning_display_inline_block {
+	background-color: #7f8372 !important;
+	font-size: 13px;
+	line-height: 13px;
+	color: #fff !important;
+	padding: 8px;
+}
+.nd_learning_archive_courses_l2_price, #nd_learning_search_components_tax_3, #nd_learning_search_components_tax_5 {
+    display: none;
+}
+a.udtryk {
+	color: #c0c1b9 !important;/* !important er brugt da temaet benytter inline CSS */
+}
+
+/* Styling af faq (Gode råd)*/
+a.vc_general{
+	font-family: 'Montserrat', sans-serif !important;/* !important er brugt da temaet benytter inline CSS */
+	border-radius: 3px;
+	padding: 10px 20px;
+	font-size: 16px;
+	line-height: 16px;
+}
+.fr_faq_main_title, .fr_main_faq_txt p, a.vc_gitem-link {
+	color: #4b3829 !important;/* !important er brugt da temaet benytter inline CSS */
+}
+
+.fr_faq_txt {
+	padding: 15px;
+	background-color: #fff;
+}
+.fr_faq_txt p, .fr_faq_txt h4 {
+	color: #4b3829 !important;/* !important er brugt da temaet benytter inline CSS */
+}

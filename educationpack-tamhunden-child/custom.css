@@ -1,0 +1,147 @@
+/*Override af plugin css*/ 
+
+/*Læs mere knap i Gode råd*/
+.fr_custom_dd_list, div.vc_btn3-container.laes_artikel-btn.vc_btn3-inline a.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-square.vc_btn3-style-modern.vc_btn3-icon-left.vc_btn3-color-white {
+	font-family: 'Montserrat', sans-serif !important;/* !important er brugt da temaet benytter inline CSS */
+	border-radius: 3px;
+	padding: 10px 20px 10px 48px;
+	font-size: 15px;
+	line-height: 16px;
+	background-color: #4B3829;
+		color: #fff;
+}
+.fr_custom_dd_list, div.vc_btn3-container.laes_artikel-btn.vc_btn3-inline a.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-square.vc_btn3-style-modern.vc_btn3-icon-left.vc_btn3-color-white:hover, .nd_options_customizer_forms input[type="submit"]:hover, .nd_options_customizer_forms button[type="submit"]:hover {
+	background-color: #a49d93 ;
+}
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-heading {
+    background-color: #4b3829;
+}
+/*Billedetekster*/
+.wpb_single_image.vc_align_left {
+    text-align: right;
+	font-style: italic;
+}
+/* Styling af bbb forum */
+#new-post > fieldset > div > fieldset > p:nth-child(4), .bbp-forum-freshness, .bbp-pagination .bbp-pagination-count, img.avatar, .bbp-breadcrumb-home, span.bbp-breadcrumb-sep:nth-child(2)  {
+	display: none;
+}
+div.bbp-template-notice {
+	display: none!important;/* !important er brugt da temaet benytter inline CSS */
+}
+#new-post > fieldset, #bbp_topic_content {
+    background-color: #fff !important;/* !important er brugt da temaet benytter inline CSS */
+	border: #A49D93 1px solid !important;/* !important er brugt da temaet benytter inline CSS */
+}
+#bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content {
+	background-color: #fff ;
+	border: 1px solid #808372 !important;/* !important er brugt da temaet benytter inline CSS */
+}
+#bbp-search-form #bbp_search_submit {
+    border-radius: 3px;
+}
+#bbp-search-form #bbp_search_submit:hover, div.bbp-submit-wrapper .button:hover {
+    background-color: #a49d93;
+	border-color: #fff;
+}
+.bbp-topic-description, .bbp-forum-description, div.bbp-template-notice a {
+    color: #DED7D1 !important;/* !important er brugt da temaet benytter inline CSS */
+}
+div.bbp-template-notice.info {
+    border: #4B3829 1px solid;
+    background-color: #A49D93 !important;/* !important er brugt da temaet benytter inline CSS */ 
+}
+#bbpress-forums .bbp-topics, #bbpress-forums li.bbp-header {
+    background-color: #4B3829;
+}
+#bbpress-forums, .bbp-topic-permalink {
+    font-size: 16px;
+	color: #A49D93 !important;/* !important er brugt da temaet benytter inline CSS */
+}
+.subscription-toggle {
+    float: right;
+}
+#bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content, 
+#new-post fieldset.bbp-form div p input#bbp_topic_title, div#bbpress-forums div#new-topic-0.bbp-topic-form form#new-post fieldset.bbp-form div p input#bbp_topic_tags, #bbpress-forums fieldset.bbp-form select, #bbpress-forums fieldset.bbp-form p input, #nd_learning_search_components_tax_1 > select:nth-child(1), #nd_learning_search_components_tax_2 > select:nth-child(1), #nd_learning_search_components_tax_4 > select:nth-child(1) {
+	background-color: #fff !important;
+	border: 1px solid #808372;
+	border-radius: 3px;
+}
+#bbpress-forums li.bbp-body ul.topic, #bbpress-forums li.bbp-body ul.forum {
+	border-bottom: 1px solid #A49D93;
+	border-left: 1px solid #A49D93;
+	border-right: 1px solid #A49D93;
+}
+#bbpress-forums li.bbp-body ul.forum:last-child {
+    border-bottom: 1px solid #A49D93;
+}
+#bbpress-forums fieldset.bbp-form legend {
+	padding: 5px 15px;
+	font-size: 18px !important;/* !important er brugt da temaet benytter inline CSS */
+}
+li.bbp-topic-freshness {
+    float: right;
+}
+div.bbp-template-notice.info {
+	display: none;
+}
+#bbp_topic_tags {
+	border: #808372 1px solid !important;/* !important er brugt da temaet benytter inline CSS */
+	border-radius: 3px !important;/* !important er brugt da temaet benytter inline CSS */
+}
+/* Override af style.css */
+.testimonial p {
+    color: #fff !important;/* !important er brugt da temaet benytter inline CSS */
+	font-size: 18px;
+	font-weight: bold;
+	    font-family: 'Montserrat' !important;/* !important er brugt da temaet benytter inline CSS */
+}
+/* Styling af JS quiz */
+div#quiz div.answers label {
+	color: inherit !important;
+}
+.question{
+	font-weight: 600;
+}
+.answers {
+    margin-bottom: 20px;
+}
+div.wpb_wrapper button#quiz-submit{
+	background-color: #4b3829;
+	border-width: 0px;
+	border-color: #fff;
+	border-radius: 2px;
+	border-style: solid;
+	padding: 10px 20px;
+	-webkit-appearance: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+div.wpb_wrapper button#quiz-submit:hover{
+	background-color: #a49d93;
+}
+label {
+	display: block;
+}
+/* Responsive override */
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+h1, h2 {
+    font-size: 28px !important;/* !important er brugt da temaet benytter inline CSS */
+    line-height: 40px !important;/* !important er brugt da temaet benytter inline CSS */
+}
+.nd_options_container, li.bbp-forum-info, li.bbp-topic-title {
+    width: 95%;
+}
+	.bbp-forum-reply-count, .bbp-forum-topic-count {
+		display: none;
+}
+#bbpress-forums li.bbp-forum-info {
+    padding-right: 0px;
+}
+	#bbpress-forums li.bbp-body ul.forum {
+    padding: 20px 5px 20px 55px;
+}
+}
