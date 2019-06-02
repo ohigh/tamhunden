@@ -1,0 +1,11 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+	"use strict";
+	console.log('Script loadet');
+	document.getElementById('print').addEventListener('click', function() {
+		console.log('knap virker');
+    	window.print();
+	});
+
+});
+</script>

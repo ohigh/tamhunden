@@ -1,0 +1,45 @@
+<!-- Dette er alt det html der behøves for at generere quizzen og resultatet -->
+<div id="quiz"></div>
+<button id="quiz-submit">Svar</button>
+<div id="results"></div>
+
+<script>
+//Vi laver en variabel indeholdende et JSON (JavaScript Object Notation) array med spørgsmål og svar
+//som sendes med som parameter når vi kalder funktionen "generateQuiz()" i vores script dokument
+    var myQuestions = [
+        {
+            question: "Hvorfor stopper din hund med at trække i snoren?",
+            answers: {
+                a: 'Den får ondt i nakken.',
+                b: 'Den vil ikke gøre dig ked af det.',
+                c: 'Den finder ud af at det ikke kan betale sig.'
+            },
+            correctAnswer: 'c'
+        },
+        {
+            question: "Hvordan belønner du din hund, når snoren bliver slap?",
+            answers: {
+                a: 'Du giver slip på snoren.',
+                b: 'Du giver din hund lov til det, den oprindeligt trak i snoren for at nå hen til.',
+                c: 'Du bærer den resten af turen.'
+            },
+            correctAnswer: 'b'
+        },
+        {
+            question: "Hvad er mest hensigtsmæssigt at gøre, når din hund trækker i snoren?",
+            answers: {
+                a: 'Træk hårdt igen, så den kan mærke hvem der bestemmer.',
+                b: 'Skæld hunden ud.',
+                c: 'Stop op, eller vend rundt og gå den modsatte vej.'
+            },
+            correctAnswer: 'c'
+        }
+    ];
+//Her definere vi tre variabler der skal sendes med når vi kalder funktionen "generateQuiz()" i vores script dokument
+//Navnene ('quiz', 'results', 'quiz-submit') er valgfrie - så længe de stemmer overens med de tilsvarende id'er i linje 1-3
+    var quizContainer = document.getElementById('quiz');
+    var resultsContainer = document.getElementById('results');
+    var submitButton = document.getElementById('quiz-submit');
+//Her kalder vi funktionen i vores script dokument og sender 4 parametre med
+    generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
+</script>

@@ -23,7 +23,9 @@ h4 {
 h5 {
     line-height: 25px;
 }
-
+#start_nicdark_framework {
+    color: #4b3829;
+}
 /* Styling på forsiden */
 div.nd_options_section.frontpage_service p {
 	color: #fff !important;/* !important er brugt da temaet benytter inline CSS */

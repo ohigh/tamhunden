@@ -25,5 +25,11 @@ Formålet med dette repository er; dokumentation af vores child-theme
     * - nd-learning-da_DK.po
     * - nd-shortcodes-da_DK.mo
     * - nd-shortcodes-da_DK.po
+* Implementerede JavaScript
+    * Quiz
+        - HTML_eksempel.html (HTML, og inline script med JSON og kald af funktion)
+        - quizz-script.js
+    * Print siden
+        - Inline script
 
 Link til siden: https://tamhunden.dk
