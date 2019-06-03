@@ -6,7 +6,7 @@
 <script>
 //Vi laver en variabel indeholdende et JSON (JavaScript Object Notation) array med spørgsmål og svar
 //som sendes med som parameter når vi kalder funktionen "generateQuiz()" i vores script dokument
-    var myQuestions = [
+    var questions = [
         {
             question: "Hvorfor stopper din hund med at trække i snoren?",
             answers: {
@@ -41,5 +41,5 @@
     var resultsContainer = document.getElementById('results');
     var submitButton = document.getElementById('quiz-submit');
 //Her kalder vi funktionen i vores script dokument og sender 4 parametre med
-    generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
+    generateQuiz(questions, quizContainer, resultsContainer, submitButton);
 </script>
